@@ -1303,9 +1303,10 @@ footer {
     mix-blend-mode: difference;
     -webkit-transform: translate3d(0,0,99999px);
   }
-
-
-
+  .bottom-footer .footer-contacts {
+    grid-column: auto / span 2;
+  }
+  
 
 
   .projects-grid {
