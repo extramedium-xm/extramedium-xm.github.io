@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "MON";
+  font-family: "SYNE";
   src: url("/fonts/SyneMono-Regular.ttf") format('truetype');
   font-weight: 400;
   font-style: normal;
@@ -64,7 +64,7 @@ html,
 body
 {
     /*background: white;*/
-    font-family: "MON","helvetica","Arial",sans-serif !important;
+    font-family: "SYNE","helvetica","Arial",sans-serif !important;
     font-kerning:normal;
     /*font-size: 1rem;*/
     font-size: var(--base-font-size);
