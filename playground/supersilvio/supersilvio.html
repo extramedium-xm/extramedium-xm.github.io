@@ -6,14 +6,29 @@
     <link rel="icon" type="image/jpg" href="favicon-64x64.png">
     <title>supersilvio</title>
     <meta name="description" content="Design practice based in EU timezone but operating worldwide">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/supersilvio.css">
   </head>
   <body>
 
     <header class="top-header">
       <p class="short-info" >Extra-Medium is a design practice based in EU timezone but operating worldwide</p>
     </header>
+    <div class="sound-buttons">
+      <button class="sound-button" data-sound="audio1.mp3">Sound 1</button>
+      <button class="sound-button" data-sound="audio2.mp3">Sound 2</button>
+      <button class="sound-button" data-sound="audio3.mp3">Sound 3</button>
+      <button class="sound-button" data-sound="audio4.mp3">Sound 4</button>
+      <button class="sound-button" data-sound="audio5.mp3">Sound 5</button>
+      <button class="sound-button" data-sound="audio6.mp3">Sound 6</button>
+  </div>
+
+  <audio id="audio-player" controls>
+      <source src="" type="audio/mpeg">
+      Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
     
-    <script type="module" src="js/script.js"></script>
+    <script type="module" src="/supersilvio.js"></script>
 </body>
 </html>
