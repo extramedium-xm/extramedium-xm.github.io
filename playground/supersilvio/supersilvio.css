@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.sound-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sound-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.sound-button:hover {
+    background-color: #2980b9;
+}
+.speakers {
+
+    display: none;
+}
+.sound-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.sound-buttons {
+    display: grid;
+    width: 100%;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.sound-button {
+    aspect-ratio: 2 / 2;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
