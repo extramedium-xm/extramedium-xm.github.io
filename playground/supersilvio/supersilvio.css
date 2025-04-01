@@ -13,15 +13,13 @@ body {
 
 .sound-button {
     padding: 10px 20px;
-    font-size: 16px;
-    background-color: #3498db;
-    color: #fff;
+    font-size: 32px;
     border: none;
     cursor: pointer;
 }
 
 .sound-button:hover {
-    background-color: #2980b9;
+   /* background-color: #2980b9;*/
 }
 .speakers {
 
@@ -36,6 +34,7 @@ body {
     width: 100%;
     position: relative;
     box-sizing: border-box;
+    background-color: rgb(217, 218, 213);
 }
 .sound-buttons {
     display: grid;
@@ -52,7 +51,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100%;
+    border-radius: 30%;
     box-sizing: border-box;
     text-align: center;
+    background-color: rgb(194 194 182);
+    color: rgb(31, 31, 31);
+    color: rgb(82 82 82);
+    font-size: 32px;
+    text-shadow: .5px .5px #ffffffa8, -.5px -.5px #444444c2;
+}
+.sound-button:active {
+    /*background-color: rgb(145, 145, 139);*/
+    -webkit-box-shadow:1px 1px 4px .2px #0000004d inset;
+    -moz-box-shadow: 1px 1px 4px .2px #0000004d inset;
+    box-shadow: 1px 1px 4px .2px #0000004d inset;
 }
