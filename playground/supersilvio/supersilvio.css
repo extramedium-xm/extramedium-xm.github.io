@@ -57,7 +57,7 @@ body {
     background-color: rgb(194 194 182);
     color: rgb(31, 31, 31);
     color: rgb(82 82 82);
-    font-size: 32px;
+    font-size: 22px;
     text-shadow: .5px .5px #ffffffa8, -.5px -.5px #444444c2;
 }
 .sound-button:active,
