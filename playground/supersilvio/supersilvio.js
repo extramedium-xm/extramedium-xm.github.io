@@ -17,3 +17,20 @@ buttons.forEach(button => {
         currentlyPlaying = audioPlayer;
     });
 });
+
+
+document.querySelectorAll('.sound-button').forEach(button => {
+    button.addEventListener('touchstart', function() {
+      this.classList.add('touched');
+    });
+  
+    button.addEventListener('touchend', function() {
+      this.classList.remove('touched');
+    });
+  
+    // Rimuove la classe anche se il tocco viene interrotto fuori dal bottone
+    button.addEventListener('touchcancel', function() {
+      this.classList.remove('touched');
+    });
+  });
+  
